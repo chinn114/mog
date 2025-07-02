@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+#welcome-screen {
+  height: 100vh;
+  background: linear-gradient(to bottom, #fcefe8, #f8e0d8); /* 柔和渐变背景 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+#welcome-screen div {
+  font-size: 2em;
+  color: #5c4033; /* 温和棕色字体 */
+  margin-bottom: 30px;
+}
+
+#start-button {
+  padding: 12px 24px;
+  font-size: 1em;
+  background-color: #d66b4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#start-button:hover {
+  background-color: #b8543f;
+}
+
+/* 头部导航 */
+header {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* hero背景区域 */
+.hero {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('素材4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text-below {
+  padding: 20px;
+}
+
+.hero-text-below h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-text-below p {
+  font-size: 1.2em;
+}
+
+/* 页脚贴底 */
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #ccc;
+  margin-top: auto;
+}
+
+.fade-screen {
+  transition: opacity 1s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#main-content {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1 !important;
+  pointer-events: auto;
+  position: static;
+}
+
+.hero-text-below {
+  color: white; /* 文字变白 */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* 添加黑色阴影 */
+}

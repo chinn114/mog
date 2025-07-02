@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  flex: 1;
+  padding: 30px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.hero-small {
+  background-image: url('素材4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-size: 2em;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('素材4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  background-color: rgba(0, 0, 0, 0.3); /* 可选：加一层黑色半透明遮罩 */
+}
+
+header {
+  background: rgba(0, 0, 0, 0.4); /* 半透明背景 */
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 40px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #ddd;
+}
